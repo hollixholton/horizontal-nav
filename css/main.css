@@ -1,0 +1,55 @@
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+/*border colour is 595652*/
+html {
+  background-color: #dbd6cf;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #79756f;
+  display: block;
+  text-align: center;
+  border: 3px solid #595652;
+}
+
+.links {
+  margin: .6em;
+  padding: .3em;
+  list-style-type: none;
+}
+
+.links a {
+  color: #fff;
+}
+
+h1 {
+  display: block;
+  font-family: 'Bevan', cursive;
+  color: #fff;
+  text-align:center;
+}
+
+.links li {
+  display: inline-block;
+  line-height: 1.5em;
+  margin:;
+  max-width: 20em;
+  padding: 0.5em 0.75em .6em;
+  background-color: #713837;
+  border: 0px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.links li {
+  display: inline-block;
+  text-align: center;
+}
+
+.links a:hover {
+  background-color: #f33;
+  color: #fff;
+}
