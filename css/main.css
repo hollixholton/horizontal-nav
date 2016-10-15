@@ -35,7 +35,7 @@ h1 {
   display: block;
   padding: 0;
   margin: .3em;
-  font-family: "Bevan";
+  font-family:"Bevan", serif;
   color: #fff;
   text-align: center;
 }
